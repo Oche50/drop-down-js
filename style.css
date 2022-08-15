@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html{
     font-family: sans-serif;
     overflow-x: hidden;
     font-size: 10px;
@@ -126,7 +126,7 @@ body{
 .header .nav-bar .hamburger.close .bar{
     background-color: transparent;
 }
-/* @media only screen and (min-width:1200px){
+@media only screen and (min-width:1200px){
     .header .nav-bar nav{
         position: initial;
         transform: translate(0,0);
@@ -157,4 +157,4 @@ body{
         display: none;
     }
    
-} */
+}
